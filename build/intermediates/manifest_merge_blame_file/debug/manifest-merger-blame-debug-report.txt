@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mcore.edu.sw"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:142:5-154:15
+12        <intent>
+12-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:145:9-151:18
+13            <action android:name="android.media.action.IMAGE_CAPTURE" />
+13-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:148:13-73
+13-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:148:21-70
+14        </intent>
+15    </queries>
+16
+17    <uses-feature
+17-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:157:5-159:36
+18        android:name="android.hardware.telephony"
+18-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:158:9-50
+19        android:required="false" />
+19-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:159:9-33
+20
+21    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+21-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:162:5-75
+21-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:162:22-72
+22    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+22-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:165:5-84
+22-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:165:22-81
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:168:5-66
+23-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:168:22-63
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:171:5-80
+24-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:171:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:174:5-81
+25-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:174:22-78
+26    <uses-permission android:name="android.permission.GET_TASKS" />
+26-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:177:5-68
+26-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:177:22-65
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:180:5-68
+27-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:180:22-65
+28    <uses-permission
+28-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:183:5-185:38
+29        android:name="android.permission.READ_PHONE_STATE"
+29-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:184:9-59
+30        android:maxSdkVersion="29" />
+30-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:185:9-35
+31    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+31-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:188:5-77
+31-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:188:22-74
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:191:5-67
+32-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:191:22-64
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:194:5-79
+33-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:194:22-76
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+34-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:197:5-76
+34-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:197:22-73
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:200:5-76
+35-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:200:22-73
+36    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+36-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:203:5-76
+36-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:203:22-73
+37    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+37-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:206:5-75
+37-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:206:22-72
+38    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+38-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:209:5-75
+38-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:209:22-72
+39
+40    <uses-feature android:name="android.hardware.camera" />
+40-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:212:5-60
+40-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:212:19-57
+41
+42    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+42-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:215:5-71
+42-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:215:22-68
+43    <uses-permission android:name="android.permission.CAMERA" />
+43-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:218:5-65
+43-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:218:22-62
+44    <uses-permission android:name="android.permission.FLASHLIGHT" />
+44-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:221:5-69
+44-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:221:22-66
+45    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+45-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:224:5-79
+45-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:224:22-76
+46    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+46-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:225:5-81
+46-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:225:22-78
+47
+48    <uses-feature
+48-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:227:5-229:36
+49        android:name="android.hardware.location"
+49-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:228:9-49
+50        android:required="false" />
+50-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:229:9-33
+51    <uses-feature
+51-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:230:5-232:36
+52        android:name="android.hardware.location.gps"
+52-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:231:9-53
+53        android:required="false" />
+53-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:232:9-33
+54    <uses-feature
+54-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:233:5-235:36
+55        android:name="android.hardware.location.network"
+55-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:234:9-57
+56        android:required="false" />
+56-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:235:9-33
+57    <!-- requestLegacyExternalStorage 관련 오류 발생시, Properties 에서 Android의 project Build Target을  Android 10 으로 지정 하거나, requestLegacyExternalStorage 를 삭제 -->
+58    <application
+58-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:11:5-139:19
+59        android:name="mcore.edu.sw.implementation.ExtendApplication"
+59-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:12:9-57
+60        android:allowBackup="false"
+60-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:13:9-36
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.5.0] C:\Users\claph\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+62        android:debuggable="true"
+63        android:icon="@drawable/icon"
+63-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:14:9-38
+64        android:label="@string/app_name"
+64-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:15:9-41
+65        android:resizeableActivity="true"
+65-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:17:9-42
+66        android:testOnly="true"
+67        android:theme="@style/Theme.AppCompat.NoActionBar"
+67-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:18:9-59
+68        android:usesCleartextTraffic="true" >
+68-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:16:9-44
+69
+70        <!-- 에러 발생시, ${applicationId} 를 packagename 으로 변경 -->
+71
+72        <provider
+72-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:24:9-36:20
+73            android:name="androidx.core.content.FileProvider"
+73-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:25:13-62
+74            android:authorities="mcore.edu.sw.provider"
+74-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:26:13-56
+75            android:exported="false"
+75-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:27:13-37
+76            android:grantUriPermissions="true" >
+76-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:28:13-47
+77            <meta-data
+77-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:31:13-33:64
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:32:17-67
+79                android:resource="@xml/mcore_provider_paths" />
+79-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:33:17-61
+80        </provider>
+81
+82        <activity
+82-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:39:9-57:20
+83            android:name="mcore.edu.sw.Startup"
+83-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:40:13-36
+84            android:exported="true"
+84-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:41:13-36
+85            android:theme="@android:style/Theme.Black.NoTitleBar" >
+85-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:42:13-66
+86            <intent-filter>
+86-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:45:13-54:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:48:17-69
+87-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:48:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:51:17-77
+89-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:51:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:60:9-63:65
+93            android:name="mcore.edu.sw.BaseActivity"
+93-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:61:13-41
+94            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+94-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:62:13-81
+95            android:imeOptions="actionSend|flagNoEnterAction" />
+95-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:63:13-62
+96        <activity
+96-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:66:9-68:84
+97            android:name="mcore.edu.sw.samples.activity.ImageList1Activity"
+97-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:67:13-64
+98            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+98-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:68:13-81
+99        <activity
+99-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:71:9-73:84
+100            android:name="mcore.edu.sw.samples.activity.ImageList2Activity"
+100-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:72:13-64
+101            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+101-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:73:13-81
+102        <activity
+102-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:76:9-78:84
+103            android:name="mcore.edu.sw.samples.activity.ImageDetailsActivity"
+103-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:77:13-66
+104            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+104-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:78:13-81
+105        <activity
+105-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:81:9-83:84
+106            android:name="mcore.edu.sw.samples.activity.StartActivity"
+106-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:82:13-59
+107            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+107-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:83:13-81
+108        <activity
+108-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:86:9-88:84
+109            android:name="mcore.edu.sw.samples.activity.SampleActivity"
+109-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:87:13-60
+110            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+110-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:88:13-81
+111        <activity
+111-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:91:9-93:84
+112            android:name="mcore.edu.sw.samples.activity.SampleActivity2"
+112-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:92:13-61
+113            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+113-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:93:13-81
+114        <activity
+114-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:96:9-98:84
+115            android:name="mcore.edu.sw.samples.activity.BatchTempActivity"
+115-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:97:13-63
+116            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+116-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:98:13-81
+117        <activity
+117-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:101:9-103:84
+118            android:name="mcore.edu.sw.samples.activity.SampleNativeListActivity"
+118-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:102:13-70
+119            android:configChanges="locale|keyboardHidden|orientation|screenSize" />
+119-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:103:13-81
+120        <activity
+120-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:106:9-109:65
+121            android:name="m.client.android.library.core.view.MainActivity"
+121-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:107:13-75
+122            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+122-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:108:13-81
+123            android:imeOptions="actionSend|flagNoEnterAction" />
+123-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:109:13-62
+124
+125        <provider
+125-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:112:9-114:57
+126            android:name="m.client.android.library.core.managers.LocalFileContentProvider"
+126-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:113:13-91
+127            android:authorities="@string/app_package" />
+127-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:114:13-54
+128
+129        <uses-library
+129-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:117:9-119:40
+130            android:name="org.apache.http.legacy"
+130-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:118:13-50
+131            android:required="false" />
+131-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:119:13-37
+132
+133        <activity
+133-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:122:9-124:73
+134            android:name="m.client.library.addon.media.AudioRecoderActivity"
+134-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:123:13-77
+135            android:configChanges="locale|keyboardHidden|orientation" />
+135-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:124:13-70
+136        <activity
+136-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:127:9-130:78
+137            android:name="m.client.library.addon.media.MediaPlayActivity"
+137-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:128:13-74
+138            android:configChanges="keyboardHidden|orientation|screenSize"
+138-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:129:13-74
+139            android:theme="@android:style/Theme.Black.NoTitleBar" />
+139-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:130:13-66
+140        <activity
+140-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:133:9-136:78
+141            android:name="m.client.library.addon.media.crop.CropImageActivity"
+141-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:134:13-79
+142            android:configChanges="keyboardHidden|orientation|screenSize"
+142-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:135:13-74
+143            android:theme="@android:style/Theme.Black.NoTitleBar" />
+143-->C:\Users\claph\Downloads\sw_morpheus_sample\AndroidManifest.xml:136:13-66
+144    </application>
+145
+146</manifest>
