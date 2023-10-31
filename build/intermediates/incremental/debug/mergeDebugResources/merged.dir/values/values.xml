@@ -299,7 +299,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="alert_title">위치 서비스 사용</string>
-    <string name="app_name">SW인재양성</string>
+    <string name="app_name">보조알리미</string>
     <string name="app_package">mcore.edu.sw</string>
     <string name="cancel">Cancel</string>
     <string name="check_gps_alert_message">자동 위치정보전송을 동의하시겠습니까?</string>
